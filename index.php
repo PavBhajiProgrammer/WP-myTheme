@@ -1,3 +1,10 @@
+<?php
+
+// echo get_template_directory_uri();
+// echo bloginfo('template_directory')
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -18,14 +25,14 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();  ?>/css/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="<?php echo get_template_directory_uri();  ?>/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="<?php echo get_template_directory_uri();  ?>/css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -35,26 +42,26 @@
       <div class="container">
         <div class="header_nav">
           <a class="navbar-brand brand_desktop" href="index.html">
-            <img src="images/logo.png" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="" />
           </a>
           <div class="main_nav">
             <div class="top_nav">
               <ul class=" ">
                 <li class="">
                   <a class="" href="">
-                    <img src="images/telephone.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/telephone.png" alt="" />
                     <span> +01 1234567890</span>
                   </a>
                 </li>
                 <li class="">
                   <a class="" href="">
-                    <img src="images/mail.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/mail.png" alt="" />
                     <span>demo@gmail.com</span>
                   </a>
                 </li>
                 <li class="">
                   <a class="" href="">
-                    <img src="images/location.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/location.png" alt="" />
                     <span>Den mark Loram ipusum</span>
                   </a>
                 </li>
@@ -63,7 +70,7 @@
             <div class="bottom_nav">
               <nav class="navbar navbar-expand-lg custom_nav-container">
                 <a class="navbar-brand brand_mobile" href="index.html">
-                  <img src="images/logo.png" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -236,10 +243,10 @@
                 <div class="item">
                   <div class="box">
                     <div class="img-box">
-                      <img src="images/c1.jpg" alt="">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/c1.jpg" alt="">
                       <div class="detail-box">
                         <button>
-                          <img src="images/play-icon.png" alt="">
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/play-icon.png" alt="">
                         </button>
                         <h2>
                           Boxing
@@ -256,10 +263,10 @@
                 <div class="item">
                   <div class="box">
                     <div class="img-box">
-                      <img src="images/c2.jpg" alt="">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/c2.jpg" alt="">
                       <div class="detail-box">
                         <button>
-                          <img src="images/play-icon.png" alt="">
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/play-icon.png" alt="">
                         </button>
                         <h2>
                           Boxing
@@ -276,10 +283,10 @@
                 <div class="item">
                   <div class="box">
                     <div class="img-box">
-                      <img src="images/c1.jpg" alt="">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/c1.jpg" alt="">
                       <div class="detail-box">
                         <button>
-                          <img src="images/play-icon.png" alt="">
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/play-icon.png" alt="">
                         </button>
                         <h2>
                           Boxing
@@ -296,10 +303,10 @@
                 <div class="item">
                   <div class="box">
                     <div class="img-box">
-                      <img src="images/c2.jpg" alt="">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/c2.jpg" alt="">
                       <div class="detail-box">
                         <button>
-                          <img src="images/play-icon.png" alt="">
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/play-icon.png" alt="">
                         </button>
                         <h2>
                           Boxing
@@ -344,7 +351,7 @@
         <div class="col-md-6 pl-0">
           <div class="box b1">
             <div class="img-box">
-              <img src="images/b1.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/b1.jpg" alt="">
             </div>
             <div class="row">
               <div class="col-lg-8 col-md-10 ml-auto">
@@ -372,7 +379,7 @@
         <div class="col-md-6 pr-0">
           <div class="box b2">
             <div class="img-box">
-              <img src="images/b2.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/b2.jpg" alt="">
             </div>
             <div class="row">
               <div class="col-lg-8 col-md-10 mr-auto">
@@ -424,7 +431,7 @@
                   <div class="item">
                     <div class="box">
                       <div class="img-box">
-                        <img src="images/client1.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/client1.png" alt="" />
                       </div>
                       <div class="detail-box">
                         <h4>
@@ -432,14 +439,14 @@
                         </h4>
                         <p>
                           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum </p>
-                        <img src="images/quote.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" alt="" />
                       </div>
                     </div>
                   </div>
                   <div class="item">
                     <div class="box">
                       <div class="img-box">
-                        <img src="images/client2.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/client2.png" alt="" />
                       </div>
                       <div class="detail-box">
                         <h4>
@@ -447,14 +454,14 @@
                         </h4>
                         <p>
                           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum </p>
-                        <img src="images/quote.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" alt="" />
                       </div>
                     </div>
                   </div>
                   <div class="item">
                     <div class="box">
                       <div class="img-box">
-                        <img src="images/client1.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/client1.png" alt="" />
                       </div>
                       <div class="detail-box">
                         <h4>
@@ -462,14 +469,14 @@
                         </h4>
                         <p>
                           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum </p>
-                        <img src="images/quote.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" alt="" />
                       </div>
                     </div>
                   </div>
                   <div class="item">
                     <div class="box">
                       <div class="img-box">
-                        <img src="images/client2.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/client2.png" alt="" />
                       </div>
                       <div class="detail-box">
                         <h4>
@@ -477,7 +484,7 @@
                         </h4>
                         <p>
                           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum </p>
-                        <img src="images/quote.png" alt="" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -539,19 +546,19 @@
               <section class=" footer_section ">
                 <div class="social_box">
                   <a href="#">
-                    <img src="images/facebook.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="">
                   </a>
                   <a href="#">
-                    <img src="images/twitter.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="">
                   </a>
                   <a href="#">
-                    <img src="images/linkedin.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png" alt="">
                   </a>
                   <a href="#">
-                    <img src="images/instagram.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/instagram.png" alt="">
                   </a>
                   <a href="#">
-                    <img src="images/youtube.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/youtube.png" alt="">
                   </a>
                 </div>
                 <p>
@@ -564,7 +571,7 @@
             </div>
             <div class="col-md-6  px-0">
               <div class="img-box">
-                <img src="images/footer-img.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/footer-img.jpg" alt="">
               </div>
             </div>
           </div>
